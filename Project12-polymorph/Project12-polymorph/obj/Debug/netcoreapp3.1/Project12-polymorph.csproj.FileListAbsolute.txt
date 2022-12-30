@@ -1,0 +1,15 @@
+C:\Users\erkol\OneDrive\Desktop\cstutorial\Project12-polymorph\Project12-polymorph\bin\Debug\netcoreapp3.1\Project12-polymorph.exe
+C:\Users\erkol\OneDrive\Desktop\cstutorial\Project12-polymorph\Project12-polymorph\bin\Debug\netcoreapp3.1\Project12-polymorph.deps.json
+C:\Users\erkol\OneDrive\Desktop\cstutorial\Project12-polymorph\Project12-polymorph\bin\Debug\netcoreapp3.1\Project12-polymorph.runtimeconfig.json
+C:\Users\erkol\OneDrive\Desktop\cstutorial\Project12-polymorph\Project12-polymorph\bin\Debug\netcoreapp3.1\Project12-polymorph.runtimeconfig.dev.json
+C:\Users\erkol\OneDrive\Desktop\cstutorial\Project12-polymorph\Project12-polymorph\bin\Debug\netcoreapp3.1\Project12-polymorph.dll
+C:\Users\erkol\OneDrive\Desktop\cstutorial\Project12-polymorph\Project12-polymorph\bin\Debug\netcoreapp3.1\Project12-polymorph.pdb
+C:\Users\erkol\OneDrive\Desktop\cstutorial\Project12-polymorph\Project12-polymorph\obj\Debug\netcoreapp3.1\Project12-polymorph.csprojAssemblyReference.cache
+C:\Users\erkol\OneDrive\Desktop\cstutorial\Project12-polymorph\Project12-polymorph\obj\Debug\netcoreapp3.1\Project12_polymorph.Form1.resources
+C:\Users\erkol\OneDrive\Desktop\cstutorial\Project12-polymorph\Project12-polymorph\obj\Debug\netcoreapp3.1\Project12-polymorph.csproj.GenerateResource.cache
+C:\Users\erkol\OneDrive\Desktop\cstutorial\Project12-polymorph\Project12-polymorph\obj\Debug\netcoreapp3.1\Project12-polymorph.AssemblyInfoInputs.cache
+C:\Users\erkol\OneDrive\Desktop\cstutorial\Project12-polymorph\Project12-polymorph\obj\Debug\netcoreapp3.1\Project12-polymorph.AssemblyInfo.cs
+C:\Users\erkol\OneDrive\Desktop\cstutorial\Project12-polymorph\Project12-polymorph\obj\Debug\netcoreapp3.1\Project12-polymorph.csproj.CoreCompileInputs.cache
+C:\Users\erkol\OneDrive\Desktop\cstutorial\Project12-polymorph\Project12-polymorph\obj\Debug\netcoreapp3.1\Project12-polymorph.dll
+C:\Users\erkol\OneDrive\Desktop\cstutorial\Project12-polymorph\Project12-polymorph\obj\Debug\netcoreapp3.1\Project12-polymorph.pdb
+C:\Users\erkol\OneDrive\Desktop\cstutorial\Project12-polymorph\Project12-polymorph\obj\Debug\netcoreapp3.1\Project12-polymorph.genruntimeconfig.cache

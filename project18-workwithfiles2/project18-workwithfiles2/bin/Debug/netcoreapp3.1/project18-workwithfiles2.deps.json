@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "project18-workwithfiles2/1.0.0": {
+        "runtime": {
+          "project18-workwithfiles2.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "project18-workwithfiles2/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

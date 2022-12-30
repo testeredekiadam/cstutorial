@@ -1,0 +1,15 @@
+C:\Users\erkol\OneDrive\Desktop\cstutorial\project11-interface\project11-interface\bin\Debug\netcoreapp3.1\project11-interface.exe
+C:\Users\erkol\OneDrive\Desktop\cstutorial\project11-interface\project11-interface\bin\Debug\netcoreapp3.1\project11-interface.deps.json
+C:\Users\erkol\OneDrive\Desktop\cstutorial\project11-interface\project11-interface\bin\Debug\netcoreapp3.1\project11-interface.runtimeconfig.json
+C:\Users\erkol\OneDrive\Desktop\cstutorial\project11-interface\project11-interface\bin\Debug\netcoreapp3.1\project11-interface.runtimeconfig.dev.json
+C:\Users\erkol\OneDrive\Desktop\cstutorial\project11-interface\project11-interface\bin\Debug\netcoreapp3.1\project11-interface.dll
+C:\Users\erkol\OneDrive\Desktop\cstutorial\project11-interface\project11-interface\bin\Debug\netcoreapp3.1\project11-interface.pdb
+C:\Users\erkol\OneDrive\Desktop\cstutorial\project11-interface\project11-interface\obj\Debug\netcoreapp3.1\project11-interface.csprojAssemblyReference.cache
+C:\Users\erkol\OneDrive\Desktop\cstutorial\project11-interface\project11-interface\obj\Debug\netcoreapp3.1\project11_interface.Form1.resources
+C:\Users\erkol\OneDrive\Desktop\cstutorial\project11-interface\project11-interface\obj\Debug\netcoreapp3.1\project11-interface.csproj.GenerateResource.cache
+C:\Users\erkol\OneDrive\Desktop\cstutorial\project11-interface\project11-interface\obj\Debug\netcoreapp3.1\project11-interface.AssemblyInfoInputs.cache
+C:\Users\erkol\OneDrive\Desktop\cstutorial\project11-interface\project11-interface\obj\Debug\netcoreapp3.1\project11-interface.AssemblyInfo.cs
+C:\Users\erkol\OneDrive\Desktop\cstutorial\project11-interface\project11-interface\obj\Debug\netcoreapp3.1\project11-interface.csproj.CoreCompileInputs.cache
+C:\Users\erkol\OneDrive\Desktop\cstutorial\project11-interface\project11-interface\obj\Debug\netcoreapp3.1\project11-interface.dll
+C:\Users\erkol\OneDrive\Desktop\cstutorial\project11-interface\project11-interface\obj\Debug\netcoreapp3.1\project11-interface.pdb
+C:\Users\erkol\OneDrive\Desktop\cstutorial\project11-interface\project11-interface\obj\Debug\netcoreapp3.1\project11-interface.genruntimeconfig.cache

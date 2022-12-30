@@ -1,0 +1,15 @@
+C:\Users\erkol\OneDrive\Desktop\cstutorial\project3-countingnumbers\project3-countingnumbers\bin\Debug\netcoreapp3.1\project3-countingnumbers.exe
+C:\Users\erkol\OneDrive\Desktop\cstutorial\project3-countingnumbers\project3-countingnumbers\bin\Debug\netcoreapp3.1\project3-countingnumbers.deps.json
+C:\Users\erkol\OneDrive\Desktop\cstutorial\project3-countingnumbers\project3-countingnumbers\bin\Debug\netcoreapp3.1\project3-countingnumbers.runtimeconfig.json
+C:\Users\erkol\OneDrive\Desktop\cstutorial\project3-countingnumbers\project3-countingnumbers\bin\Debug\netcoreapp3.1\project3-countingnumbers.runtimeconfig.dev.json
+C:\Users\erkol\OneDrive\Desktop\cstutorial\project3-countingnumbers\project3-countingnumbers\bin\Debug\netcoreapp3.1\project3-countingnumbers.dll
+C:\Users\erkol\OneDrive\Desktop\cstutorial\project3-countingnumbers\project3-countingnumbers\bin\Debug\netcoreapp3.1\project3-countingnumbers.pdb
+C:\Users\erkol\OneDrive\Desktop\cstutorial\project3-countingnumbers\project3-countingnumbers\obj\Debug\netcoreapp3.1\project3-countingnumbers.csprojAssemblyReference.cache
+C:\Users\erkol\OneDrive\Desktop\cstutorial\project3-countingnumbers\project3-countingnumbers\obj\Debug\netcoreapp3.1\project3_countingnumbers.Form1.resources
+C:\Users\erkol\OneDrive\Desktop\cstutorial\project3-countingnumbers\project3-countingnumbers\obj\Debug\netcoreapp3.1\project3-countingnumbers.csproj.GenerateResource.cache
+C:\Users\erkol\OneDrive\Desktop\cstutorial\project3-countingnumbers\project3-countingnumbers\obj\Debug\netcoreapp3.1\project3-countingnumbers.AssemblyInfoInputs.cache
+C:\Users\erkol\OneDrive\Desktop\cstutorial\project3-countingnumbers\project3-countingnumbers\obj\Debug\netcoreapp3.1\project3-countingnumbers.AssemblyInfo.cs
+C:\Users\erkol\OneDrive\Desktop\cstutorial\project3-countingnumbers\project3-countingnumbers\obj\Debug\netcoreapp3.1\project3-countingnumbers.csproj.CoreCompileInputs.cache
+C:\Users\erkol\OneDrive\Desktop\cstutorial\project3-countingnumbers\project3-countingnumbers\obj\Debug\netcoreapp3.1\project3-countingnumbers.dll
+C:\Users\erkol\OneDrive\Desktop\cstutorial\project3-countingnumbers\project3-countingnumbers\obj\Debug\netcoreapp3.1\project3-countingnumbers.pdb
+C:\Users\erkol\OneDrive\Desktop\cstutorial\project3-countingnumbers\project3-countingnumbers\obj\Debug\netcoreapp3.1\project3-countingnumbers.genruntimeconfig.cache

@@ -1,0 +1,15 @@
+C:\Users\erkol\OneDrive\Desktop\cstutorial\project15-delegate\project15-delegate\bin\Debug\netcoreapp3.1\project15-delegate.exe
+C:\Users\erkol\OneDrive\Desktop\cstutorial\project15-delegate\project15-delegate\bin\Debug\netcoreapp3.1\project15-delegate.deps.json
+C:\Users\erkol\OneDrive\Desktop\cstutorial\project15-delegate\project15-delegate\bin\Debug\netcoreapp3.1\project15-delegate.runtimeconfig.json
+C:\Users\erkol\OneDrive\Desktop\cstutorial\project15-delegate\project15-delegate\bin\Debug\netcoreapp3.1\project15-delegate.runtimeconfig.dev.json
+C:\Users\erkol\OneDrive\Desktop\cstutorial\project15-delegate\project15-delegate\bin\Debug\netcoreapp3.1\project15-delegate.dll
+C:\Users\erkol\OneDrive\Desktop\cstutorial\project15-delegate\project15-delegate\bin\Debug\netcoreapp3.1\project15-delegate.pdb
+C:\Users\erkol\OneDrive\Desktop\cstutorial\project15-delegate\project15-delegate\obj\Debug\netcoreapp3.1\project15-delegate.csprojAssemblyReference.cache
+C:\Users\erkol\OneDrive\Desktop\cstutorial\project15-delegate\project15-delegate\obj\Debug\netcoreapp3.1\project15_delegate.Form1.resources
+C:\Users\erkol\OneDrive\Desktop\cstutorial\project15-delegate\project15-delegate\obj\Debug\netcoreapp3.1\project15-delegate.csproj.GenerateResource.cache
+C:\Users\erkol\OneDrive\Desktop\cstutorial\project15-delegate\project15-delegate\obj\Debug\netcoreapp3.1\project15-delegate.AssemblyInfoInputs.cache
+C:\Users\erkol\OneDrive\Desktop\cstutorial\project15-delegate\project15-delegate\obj\Debug\netcoreapp3.1\project15-delegate.AssemblyInfo.cs
+C:\Users\erkol\OneDrive\Desktop\cstutorial\project15-delegate\project15-delegate\obj\Debug\netcoreapp3.1\project15-delegate.csproj.CoreCompileInputs.cache
+C:\Users\erkol\OneDrive\Desktop\cstutorial\project15-delegate\project15-delegate\obj\Debug\netcoreapp3.1\project15-delegate.dll
+C:\Users\erkol\OneDrive\Desktop\cstutorial\project15-delegate\project15-delegate\obj\Debug\netcoreapp3.1\project15-delegate.pdb
+C:\Users\erkol\OneDrive\Desktop\cstutorial\project15-delegate\project15-delegate\obj\Debug\netcoreapp3.1\project15-delegate.genruntimeconfig.cache

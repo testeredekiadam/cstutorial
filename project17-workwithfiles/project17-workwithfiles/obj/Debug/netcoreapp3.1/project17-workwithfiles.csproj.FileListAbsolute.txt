@@ -1,0 +1,15 @@
+C:\Users\erkol\OneDrive\Desktop\cstutorial\project17-workwithfiles\project17-workwithfiles\bin\Debug\netcoreapp3.1\project17-workwithfiles.exe
+C:\Users\erkol\OneDrive\Desktop\cstutorial\project17-workwithfiles\project17-workwithfiles\bin\Debug\netcoreapp3.1\project17-workwithfiles.deps.json
+C:\Users\erkol\OneDrive\Desktop\cstutorial\project17-workwithfiles\project17-workwithfiles\bin\Debug\netcoreapp3.1\project17-workwithfiles.runtimeconfig.json
+C:\Users\erkol\OneDrive\Desktop\cstutorial\project17-workwithfiles\project17-workwithfiles\bin\Debug\netcoreapp3.1\project17-workwithfiles.runtimeconfig.dev.json
+C:\Users\erkol\OneDrive\Desktop\cstutorial\project17-workwithfiles\project17-workwithfiles\bin\Debug\netcoreapp3.1\project17-workwithfiles.dll
+C:\Users\erkol\OneDrive\Desktop\cstutorial\project17-workwithfiles\project17-workwithfiles\bin\Debug\netcoreapp3.1\project17-workwithfiles.pdb
+C:\Users\erkol\OneDrive\Desktop\cstutorial\project17-workwithfiles\project17-workwithfiles\obj\Debug\netcoreapp3.1\project17-workwithfiles.csprojAssemblyReference.cache
+C:\Users\erkol\OneDrive\Desktop\cstutorial\project17-workwithfiles\project17-workwithfiles\obj\Debug\netcoreapp3.1\project17_workwithfiles.Form1.resources
+C:\Users\erkol\OneDrive\Desktop\cstutorial\project17-workwithfiles\project17-workwithfiles\obj\Debug\netcoreapp3.1\project17-workwithfiles.csproj.GenerateResource.cache
+C:\Users\erkol\OneDrive\Desktop\cstutorial\project17-workwithfiles\project17-workwithfiles\obj\Debug\netcoreapp3.1\project17-workwithfiles.AssemblyInfoInputs.cache
+C:\Users\erkol\OneDrive\Desktop\cstutorial\project17-workwithfiles\project17-workwithfiles\obj\Debug\netcoreapp3.1\project17-workwithfiles.AssemblyInfo.cs
+C:\Users\erkol\OneDrive\Desktop\cstutorial\project17-workwithfiles\project17-workwithfiles\obj\Debug\netcoreapp3.1\project17-workwithfiles.csproj.CoreCompileInputs.cache
+C:\Users\erkol\OneDrive\Desktop\cstutorial\project17-workwithfiles\project17-workwithfiles\obj\Debug\netcoreapp3.1\project17-workwithfiles.dll
+C:\Users\erkol\OneDrive\Desktop\cstutorial\project17-workwithfiles\project17-workwithfiles\obj\Debug\netcoreapp3.1\project17-workwithfiles.pdb
+C:\Users\erkol\OneDrive\Desktop\cstutorial\project17-workwithfiles\project17-workwithfiles\obj\Debug\netcoreapp3.1\project17-workwithfiles.genruntimeconfig.cache

@@ -1,0 +1,10 @@
+C:\Users\erkol\OneDrive\Desktop\cstutorial\PersonalTracking\BLL\bin\Debug\BLL.dll
+C:\Users\erkol\OneDrive\Desktop\cstutorial\PersonalTracking\BLL\bin\Debug\BLL.pdb
+C:\Users\erkol\OneDrive\Desktop\cstutorial\PersonalTracking\BLL\bin\Debug\DAL.dll
+C:\Users\erkol\OneDrive\Desktop\cstutorial\PersonalTracking\BLL\bin\Debug\DAL.pdb
+C:\Users\erkol\OneDrive\Desktop\cstutorial\PersonalTracking\BLL\bin\Debug\DAL.dll.config
+C:\Users\erkol\OneDrive\Desktop\cstutorial\PersonalTracking\BLL\obj\Debug\BLL.csproj.AssemblyReference.cache
+C:\Users\erkol\OneDrive\Desktop\cstutorial\PersonalTracking\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+C:\Users\erkol\OneDrive\Desktop\cstutorial\PersonalTracking\BLL\obj\Debug\BLL.csproj.CopyComplete
+C:\Users\erkol\OneDrive\Desktop\cstutorial\PersonalTracking\BLL\obj\Debug\BLL.dll
+C:\Users\erkol\OneDrive\Desktop\cstutorial\PersonalTracking\BLL\obj\Debug\BLL.pdb

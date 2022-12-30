@@ -1,0 +1,7 @@
+C:\Users\erkol\OneDrive\Desktop\cstutorial\PersonalTracking\DAL\bin\Debug\DAL.dll.config
+C:\Users\erkol\OneDrive\Desktop\cstutorial\PersonalTracking\DAL\bin\Debug\DAL.dll
+C:\Users\erkol\OneDrive\Desktop\cstutorial\PersonalTracking\DAL\bin\Debug\DAL.pdb
+C:\Users\erkol\OneDrive\Desktop\cstutorial\PersonalTracking\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
+C:\Users\erkol\OneDrive\Desktop\cstutorial\PersonalTracking\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+C:\Users\erkol\OneDrive\Desktop\cstutorial\PersonalTracking\DAL\obj\Debug\DAL.dll
+C:\Users\erkol\OneDrive\Desktop\cstutorial\PersonalTracking\DAL\obj\Debug\DAL.pdb

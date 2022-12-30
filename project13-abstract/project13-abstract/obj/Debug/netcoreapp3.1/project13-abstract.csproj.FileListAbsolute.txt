@@ -1,0 +1,14 @@
+C:\Users\erkol\OneDrive\Desktop\cstutorial\project13-abstract\project13-abstract\obj\Debug\netcoreapp3.1\project13_abstract.Form1.resources
+C:\Users\erkol\OneDrive\Desktop\cstutorial\project13-abstract\project13-abstract\obj\Debug\netcoreapp3.1\project13-abstract.csproj.GenerateResource.cache
+C:\Users\erkol\OneDrive\Desktop\cstutorial\project13-abstract\project13-abstract\obj\Debug\netcoreapp3.1\project13-abstract.AssemblyInfoInputs.cache
+C:\Users\erkol\OneDrive\Desktop\cstutorial\project13-abstract\project13-abstract\obj\Debug\netcoreapp3.1\project13-abstract.AssemblyInfo.cs
+C:\Users\erkol\OneDrive\Desktop\cstutorial\project13-abstract\project13-abstract\obj\Debug\netcoreapp3.1\project13-abstract.csproj.CoreCompileInputs.cache
+C:\Users\erkol\OneDrive\Desktop\cstutorial\project13-abstract\project13-abstract\bin\Debug\netcoreapp3.1\project13-abstract.exe
+C:\Users\erkol\OneDrive\Desktop\cstutorial\project13-abstract\project13-abstract\bin\Debug\netcoreapp3.1\project13-abstract.deps.json
+C:\Users\erkol\OneDrive\Desktop\cstutorial\project13-abstract\project13-abstract\bin\Debug\netcoreapp3.1\project13-abstract.runtimeconfig.json
+C:\Users\erkol\OneDrive\Desktop\cstutorial\project13-abstract\project13-abstract\bin\Debug\netcoreapp3.1\project13-abstract.runtimeconfig.dev.json
+C:\Users\erkol\OneDrive\Desktop\cstutorial\project13-abstract\project13-abstract\bin\Debug\netcoreapp3.1\project13-abstract.dll
+C:\Users\erkol\OneDrive\Desktop\cstutorial\project13-abstract\project13-abstract\bin\Debug\netcoreapp3.1\project13-abstract.pdb
+C:\Users\erkol\OneDrive\Desktop\cstutorial\project13-abstract\project13-abstract\obj\Debug\netcoreapp3.1\project13-abstract.dll
+C:\Users\erkol\OneDrive\Desktop\cstutorial\project13-abstract\project13-abstract\obj\Debug\netcoreapp3.1\project13-abstract.pdb
+C:\Users\erkol\OneDrive\Desktop\cstutorial\project13-abstract\project13-abstract\obj\Debug\netcoreapp3.1\project13-abstract.genruntimeconfig.cache

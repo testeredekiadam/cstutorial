@@ -1,0 +1,15 @@
+C:\Users\erkol\OneDrive\Desktop\cstutorial\project9\project9\bin\Debug\netcoreapp3.1\project9.exe
+C:\Users\erkol\OneDrive\Desktop\cstutorial\project9\project9\bin\Debug\netcoreapp3.1\project9.deps.json
+C:\Users\erkol\OneDrive\Desktop\cstutorial\project9\project9\bin\Debug\netcoreapp3.1\project9.runtimeconfig.json
+C:\Users\erkol\OneDrive\Desktop\cstutorial\project9\project9\bin\Debug\netcoreapp3.1\project9.runtimeconfig.dev.json
+C:\Users\erkol\OneDrive\Desktop\cstutorial\project9\project9\bin\Debug\netcoreapp3.1\project9.dll
+C:\Users\erkol\OneDrive\Desktop\cstutorial\project9\project9\bin\Debug\netcoreapp3.1\project9.pdb
+C:\Users\erkol\OneDrive\Desktop\cstutorial\project9\project9\obj\Debug\netcoreapp3.1\project9.csprojAssemblyReference.cache
+C:\Users\erkol\OneDrive\Desktop\cstutorial\project9\project9\obj\Debug\netcoreapp3.1\project9.Form1.resources
+C:\Users\erkol\OneDrive\Desktop\cstutorial\project9\project9\obj\Debug\netcoreapp3.1\project9.csproj.GenerateResource.cache
+C:\Users\erkol\OneDrive\Desktop\cstutorial\project9\project9\obj\Debug\netcoreapp3.1\project9.AssemblyInfoInputs.cache
+C:\Users\erkol\OneDrive\Desktop\cstutorial\project9\project9\obj\Debug\netcoreapp3.1\project9.AssemblyInfo.cs
+C:\Users\erkol\OneDrive\Desktop\cstutorial\project9\project9\obj\Debug\netcoreapp3.1\project9.csproj.CoreCompileInputs.cache
+C:\Users\erkol\OneDrive\Desktop\cstutorial\project9\project9\obj\Debug\netcoreapp3.1\project9.dll
+C:\Users\erkol\OneDrive\Desktop\cstutorial\project9\project9\obj\Debug\netcoreapp3.1\project9.pdb
+C:\Users\erkol\OneDrive\Desktop\cstutorial\project9\project9\obj\Debug\netcoreapp3.1\project9.genruntimeconfig.cache

@@ -1,0 +1,16 @@
+C:\Users\erkol\OneDrive\Desktop\cstutorial\firstProject\firstProject\bin\Debug\netcoreapp3.1\firstProject.exe
+C:\Users\erkol\OneDrive\Desktop\cstutorial\firstProject\firstProject\bin\Debug\netcoreapp3.1\firstProject.deps.json
+C:\Users\erkol\OneDrive\Desktop\cstutorial\firstProject\firstProject\bin\Debug\netcoreapp3.1\firstProject.runtimeconfig.json
+C:\Users\erkol\OneDrive\Desktop\cstutorial\firstProject\firstProject\bin\Debug\netcoreapp3.1\firstProject.runtimeconfig.dev.json
+C:\Users\erkol\OneDrive\Desktop\cstutorial\firstProject\firstProject\bin\Debug\netcoreapp3.1\firstProject.dll
+C:\Users\erkol\OneDrive\Desktop\cstutorial\firstProject\firstProject\bin\Debug\netcoreapp3.1\firstProject.pdb
+C:\Users\erkol\OneDrive\Desktop\cstutorial\firstProject\firstProject\obj\Debug\netcoreapp3.1\firstProject.csprojAssemblyReference.cache
+C:\Users\erkol\OneDrive\Desktop\cstutorial\firstProject\firstProject\obj\Debug\netcoreapp3.1\firstProject.Form1.resources
+C:\Users\erkol\OneDrive\Desktop\cstutorial\firstProject\firstProject\obj\Debug\netcoreapp3.1\firstProject.csproj.GenerateResource.cache
+C:\Users\erkol\OneDrive\Desktop\cstutorial\firstProject\firstProject\obj\Debug\netcoreapp3.1\firstProject.AssemblyInfoInputs.cache
+C:\Users\erkol\OneDrive\Desktop\cstutorial\firstProject\firstProject\obj\Debug\netcoreapp3.1\firstProject.AssemblyInfo.cs
+C:\Users\erkol\OneDrive\Desktop\cstutorial\firstProject\firstProject\obj\Debug\netcoreapp3.1\firstProject.csproj.CoreCompileInputs.cache
+C:\Users\erkol\OneDrive\Desktop\cstutorial\firstProject\firstProject\obj\Debug\netcoreapp3.1\firstProject.dll
+C:\Users\erkol\OneDrive\Desktop\cstutorial\firstProject\firstProject\obj\Debug\netcoreapp3.1\firstProject.pdb
+C:\Users\erkol\OneDrive\Desktop\cstutorial\firstProject\firstProject\obj\Debug\netcoreapp3.1\firstProject.genruntimeconfig.cache
+C:\Users\erkol\OneDrive\Desktop\cstutorial\firstProject\firstProject\obj\Debug\netcoreapp3.1\firstProject.Properties.Resources.resources

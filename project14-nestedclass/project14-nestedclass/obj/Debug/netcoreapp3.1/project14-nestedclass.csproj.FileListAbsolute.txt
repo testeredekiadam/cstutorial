@@ -1,0 +1,15 @@
+C:\Users\erkol\OneDrive\Desktop\cstutorial\project14-nestedclass\project14-nestedclass\bin\Debug\netcoreapp3.1\project14-nestedclass.exe
+C:\Users\erkol\OneDrive\Desktop\cstutorial\project14-nestedclass\project14-nestedclass\bin\Debug\netcoreapp3.1\project14-nestedclass.deps.json
+C:\Users\erkol\OneDrive\Desktop\cstutorial\project14-nestedclass\project14-nestedclass\bin\Debug\netcoreapp3.1\project14-nestedclass.runtimeconfig.json
+C:\Users\erkol\OneDrive\Desktop\cstutorial\project14-nestedclass\project14-nestedclass\bin\Debug\netcoreapp3.1\project14-nestedclass.runtimeconfig.dev.json
+C:\Users\erkol\OneDrive\Desktop\cstutorial\project14-nestedclass\project14-nestedclass\bin\Debug\netcoreapp3.1\project14-nestedclass.dll
+C:\Users\erkol\OneDrive\Desktop\cstutorial\project14-nestedclass\project14-nestedclass\bin\Debug\netcoreapp3.1\project14-nestedclass.pdb
+C:\Users\erkol\OneDrive\Desktop\cstutorial\project14-nestedclass\project14-nestedclass\obj\Debug\netcoreapp3.1\project14-nestedclass.csprojAssemblyReference.cache
+C:\Users\erkol\OneDrive\Desktop\cstutorial\project14-nestedclass\project14-nestedclass\obj\Debug\netcoreapp3.1\project14_nestedclass.Form1.resources
+C:\Users\erkol\OneDrive\Desktop\cstutorial\project14-nestedclass\project14-nestedclass\obj\Debug\netcoreapp3.1\project14-nestedclass.csproj.GenerateResource.cache
+C:\Users\erkol\OneDrive\Desktop\cstutorial\project14-nestedclass\project14-nestedclass\obj\Debug\netcoreapp3.1\project14-nestedclass.AssemblyInfoInputs.cache
+C:\Users\erkol\OneDrive\Desktop\cstutorial\project14-nestedclass\project14-nestedclass\obj\Debug\netcoreapp3.1\project14-nestedclass.AssemblyInfo.cs
+C:\Users\erkol\OneDrive\Desktop\cstutorial\project14-nestedclass\project14-nestedclass\obj\Debug\netcoreapp3.1\project14-nestedclass.csproj.CoreCompileInputs.cache
+C:\Users\erkol\OneDrive\Desktop\cstutorial\project14-nestedclass\project14-nestedclass\obj\Debug\netcoreapp3.1\project14-nestedclass.dll
+C:\Users\erkol\OneDrive\Desktop\cstutorial\project14-nestedclass\project14-nestedclass\obj\Debug\netcoreapp3.1\project14-nestedclass.pdb
+C:\Users\erkol\OneDrive\Desktop\cstutorial\project14-nestedclass\project14-nestedclass\obj\Debug\netcoreapp3.1\project14-nestedclass.genruntimeconfig.cache

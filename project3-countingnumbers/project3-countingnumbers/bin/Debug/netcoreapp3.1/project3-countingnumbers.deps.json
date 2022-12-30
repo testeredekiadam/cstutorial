@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "project3-countingnumbers/1.0.0": {
+        "runtime": {
+          "project3-countingnumbers.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "project3-countingnumbers/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

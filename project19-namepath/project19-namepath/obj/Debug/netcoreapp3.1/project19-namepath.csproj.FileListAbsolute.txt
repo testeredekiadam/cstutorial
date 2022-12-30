@@ -1,0 +1,14 @@
+C:\Users\erkol\OneDrive\Desktop\cstutorial\project19-namepath\project19-namepath\bin\Debug\netcoreapp3.1\project19-namepath.exe
+C:\Users\erkol\OneDrive\Desktop\cstutorial\project19-namepath\project19-namepath\bin\Debug\netcoreapp3.1\project19-namepath.deps.json
+C:\Users\erkol\OneDrive\Desktop\cstutorial\project19-namepath\project19-namepath\bin\Debug\netcoreapp3.1\project19-namepath.runtimeconfig.json
+C:\Users\erkol\OneDrive\Desktop\cstutorial\project19-namepath\project19-namepath\bin\Debug\netcoreapp3.1\project19-namepath.runtimeconfig.dev.json
+C:\Users\erkol\OneDrive\Desktop\cstutorial\project19-namepath\project19-namepath\bin\Debug\netcoreapp3.1\project19-namepath.dll
+C:\Users\erkol\OneDrive\Desktop\cstutorial\project19-namepath\project19-namepath\bin\Debug\netcoreapp3.1\project19-namepath.pdb
+C:\Users\erkol\OneDrive\Desktop\cstutorial\project19-namepath\project19-namepath\obj\Debug\netcoreapp3.1\project19_namepath.Form1.resources
+C:\Users\erkol\OneDrive\Desktop\cstutorial\project19-namepath\project19-namepath\obj\Debug\netcoreapp3.1\project19-namepath.csproj.GenerateResource.cache
+C:\Users\erkol\OneDrive\Desktop\cstutorial\project19-namepath\project19-namepath\obj\Debug\netcoreapp3.1\project19-namepath.AssemblyInfoInputs.cache
+C:\Users\erkol\OneDrive\Desktop\cstutorial\project19-namepath\project19-namepath\obj\Debug\netcoreapp3.1\project19-namepath.AssemblyInfo.cs
+C:\Users\erkol\OneDrive\Desktop\cstutorial\project19-namepath\project19-namepath\obj\Debug\netcoreapp3.1\project19-namepath.csproj.CoreCompileInputs.cache
+C:\Users\erkol\OneDrive\Desktop\cstutorial\project19-namepath\project19-namepath\obj\Debug\netcoreapp3.1\project19-namepath.dll
+C:\Users\erkol\OneDrive\Desktop\cstutorial\project19-namepath\project19-namepath\obj\Debug\netcoreapp3.1\project19-namepath.pdb
+C:\Users\erkol\OneDrive\Desktop\cstutorial\project19-namepath\project19-namepath\obj\Debug\netcoreapp3.1\project19-namepath.genruntimeconfig.cache

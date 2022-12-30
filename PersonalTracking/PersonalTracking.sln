@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31105.61
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PersonalTracking", "PersonalTracking\PersonalTracking.csproj", "{8700E04D-96FF-4112-BA77-135FF15533B2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BLL", "BLL\BLL.csproj", "{7391FA87-59FE-4964-840C-DA1D8F667049}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL", "DAL\DAL.csproj", "{658C3CD4-5FC1-4051-87F6-05B5C710B41A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8700E04D-96FF-4112-BA77-135FF15533B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8700E04D-96FF-4112-BA77-135FF15533B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8700E04D-96FF-4112-BA77-135FF15533B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8700E04D-96FF-4112-BA77-135FF15533B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7391FA87-59FE-4964-840C-DA1D8F667049}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7391FA87-59FE-4964-840C-DA1D8F667049}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7391FA87-59FE-4964-840C-DA1D8F667049}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7391FA87-59FE-4964-840C-DA1D8F667049}.Release|Any CPU.Build.0 = Release|Any CPU
+		{658C3CD4-5FC1-4051-87F6-05B5C710B41A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{658C3CD4-5FC1-4051-87F6-05B5C710B41A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{658C3CD4-5FC1-4051-87F6-05B5C710B41A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{658C3CD4-5FC1-4051-87F6-05B5C710B41A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {46664321-167A-4FE2-87E1-89A5016D62DA}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "project19-namepath/1.0.0": {
+        "runtime": {
+          "project19-namepath.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "project19-namepath/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
