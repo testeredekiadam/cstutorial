@@ -57,7 +57,7 @@ namespace DAL.DAO
                 PermissionDetailDTO dto = new PermissionDetailDTO();
 
                 dto.UserNo = item.UserNo;
-
+                dto.Name = item.Name
             }
 
             return permissions;
