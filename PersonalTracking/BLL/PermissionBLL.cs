@@ -23,6 +23,7 @@ namespace BLL
             dto.Position = PositionDAO.GetPosition();
             dto.States = PermissionDAO.GetStates();
             dto.Permission = PermissionDAO.GetPermissions();
+            return dto;
         }
     }
 }

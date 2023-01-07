@@ -33,9 +33,9 @@ namespace PersonalTracking
             this.panel3 = new System.Windows.Forms.Panel();
             this.btnSearch = new System.Windows.Forms.Button();
             this.btnClear = new System.Windows.Forms.Button();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txtDayAmount = new System.Windows.Forms.TextBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.radioDelivery = new System.Windows.Forms.RadioButton();
+            this.radioEnd = new System.Windows.Forms.RadioButton();
             this.radioStart = new System.Windows.Forms.RadioButton();
             this.label4 = new System.Windows.Forms.Label();
             this.dateFinish = new System.Windows.Forms.DateTimePicker();
@@ -48,7 +48,7 @@ namespace PersonalTracking
             this.cmbDepartment = new System.Windows.Forms.ComboBox();
             this.txtDepartment = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
-            this.textSurname = new System.Windows.Forms.TextBox();
+            this.txtSurname = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.txtName = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
@@ -62,6 +62,8 @@ namespace PersonalTracking
             this.btnClose = new System.Windows.Forms.Button();
             this.btnNew = new System.Windows.Forms.Button();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.label8 = new System.Windows.Forms.Label();
+            this.cmbState = new System.Windows.Forms.ComboBox();
             this.panel1.SuspendLayout();
             this.panel3.SuspendLayout();
             this.groupBox1.SuspendLayout();
@@ -82,9 +84,11 @@ namespace PersonalTracking
             // 
             // panel3
             // 
+            this.panel3.Controls.Add(this.cmbState);
+            this.panel3.Controls.Add(this.label8);
             this.panel3.Controls.Add(this.btnSearch);
             this.panel3.Controls.Add(this.btnClear);
-            this.panel3.Controls.Add(this.textBox1);
+            this.panel3.Controls.Add(this.txtDayAmount);
             this.panel3.Controls.Add(this.groupBox1);
             this.panel3.Controls.Add(this.label4);
             this.panel3.Controls.Add(this.dateFinish);
@@ -101,35 +105,37 @@ namespace PersonalTracking
             // btnSearch
             // 
             this.btnSearch.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSearch.Location = new System.Drawing.Point(170, 348);
+            this.btnSearch.Location = new System.Drawing.Point(676, 264);
             this.btnSearch.Name = "btnSearch";
             this.btnSearch.Size = new System.Drawing.Size(168, 57);
             this.btnSearch.TabIndex = 4;
             this.btnSearch.Text = "Search";
             this.btnSearch.UseVisualStyleBackColor = true;
+            this.btnSearch.Click += new System.EventHandler(this.btnSearch_Click);
             // 
             // btnClear
             // 
             this.btnClear.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnClear.Location = new System.Drawing.Point(375, 348);
+            this.btnClear.Location = new System.Drawing.Point(676, 353);
             this.btnClear.Name = "btnClear";
             this.btnClear.Size = new System.Drawing.Size(168, 57);
             this.btnClear.TabIndex = 5;
             this.btnClear.Text = "Clear";
             this.btnClear.UseVisualStyleBackColor = true;
+            this.btnClear.Click += new System.EventHandler(this.btnClear_Click);
             // 
-            // textBox1
+            // txtDayAmount
             // 
-            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(248, 241);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(271, 53);
-            this.textBox1.TabIndex = 2;
-            this.textBox1.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBox1_KeyPress);
+            this.txtDayAmount.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtDayAmount.Location = new System.Drawing.Point(248, 241);
+            this.txtDayAmount.Name = "txtDayAmount";
+            this.txtDayAmount.Size = new System.Drawing.Size(271, 53);
+            this.txtDayAmount.TabIndex = 2;
+            this.txtDayAmount.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBox1_KeyPress);
             // 
             // groupBox1
             // 
-            this.groupBox1.Controls.Add(this.radioDelivery);
+            this.groupBox1.Controls.Add(this.radioEnd);
             this.groupBox1.Controls.Add(this.radioStart);
             this.groupBox1.Location = new System.Drawing.Point(616, 85);
             this.groupBox1.Name = "groupBox1";
@@ -137,17 +143,17 @@ namespace PersonalTracking
             this.groupBox1.TabIndex = 3;
             this.groupBox1.TabStop = false;
             // 
-            // radioDelivery
+            // radioEnd
             // 
-            this.radioDelivery.AutoSize = true;
-            this.radioDelivery.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioDelivery.Location = new System.Drawing.Point(16, 78);
-            this.radioDelivery.Name = "radioDelivery";
-            this.radioDelivery.Size = new System.Drawing.Size(212, 40);
-            this.radioDelivery.TabIndex = 1;
-            this.radioDelivery.TabStop = true;
-            this.radioDelivery.Text = "Delivery Date";
-            this.radioDelivery.UseVisualStyleBackColor = true;
+            this.radioEnd.AutoSize = true;
+            this.radioEnd.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioEnd.Location = new System.Drawing.Point(16, 78);
+            this.radioEnd.Name = "radioEnd";
+            this.radioEnd.Size = new System.Drawing.Size(159, 40);
+            this.radioEnd.TabIndex = 1;
+            this.radioEnd.TabStop = true;
+            this.radioEnd.Text = "End Date";
+            this.radioEnd.UseVisualStyleBackColor = true;
             // 
             // radioStart
             // 
@@ -223,7 +229,7 @@ namespace PersonalTracking
             this.pnlForAdmin.Controls.Add(this.cmbDepartment);
             this.pnlForAdmin.Controls.Add(this.txtDepartment);
             this.pnlForAdmin.Controls.Add(this.label10);
-            this.pnlForAdmin.Controls.Add(this.textSurname);
+            this.pnlForAdmin.Controls.Add(this.txtSurname);
             this.pnlForAdmin.Controls.Add(this.label3);
             this.pnlForAdmin.Controls.Add(this.txtName);
             this.pnlForAdmin.Controls.Add(this.label2);
@@ -273,13 +279,13 @@ namespace PersonalTracking
             this.label10.TabIndex = 36;
             this.label10.Text = "Position";
             // 
-            // textSurname
+            // txtSurname
             // 
-            this.textSurname.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textSurname.Location = new System.Drawing.Point(241, 189);
-            this.textSurname.Name = "textSurname";
-            this.textSurname.Size = new System.Drawing.Size(271, 53);
-            this.textSurname.TabIndex = 2;
+            this.txtSurname.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtSurname.Location = new System.Drawing.Point(241, 189);
+            this.txtSurname.Name = "txtSurname";
+            this.txtSurname.Size = new System.Drawing.Size(271, 53);
+            this.txtSurname.TabIndex = 2;
             // 
             // label3
             // 
@@ -416,6 +422,25 @@ namespace PersonalTracking
             this.dataGridView1.Size = new System.Drawing.Size(1493, 515);
             this.dataGridView1.TabIndex = 2;
             // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.Location = new System.Drawing.Point(6, 330);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(113, 46);
+            this.label8.TabIndex = 39;
+            this.label8.Text = "State";
+            // 
+            // cmbState
+            // 
+            this.cmbState.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cmbState.FormattingEnabled = true;
+            this.cmbState.Location = new System.Drawing.Point(247, 322);
+            this.cmbState.Name = "cmbState";
+            this.cmbState.Size = new System.Drawing.Size(271, 54);
+            this.cmbState.TabIndex = 37;
+            // 
             // FrmPermissionList
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -458,15 +483,15 @@ namespace PersonalTracking
         private System.Windows.Forms.ComboBox cmbDepartment;
         private System.Windows.Forms.Label txtDepartment;
         private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.TextBox textSurname;
+        private System.Windows.Forms.TextBox txtSurname;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.TextBox txtName;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox txtUserNo;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox txtDayAmount;
         private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.RadioButton radioDelivery;
+        private System.Windows.Forms.RadioButton radioEnd;
         private System.Windows.Forms.RadioButton radioStart;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.DateTimePicker dateFinish;
@@ -476,5 +501,7 @@ namespace PersonalTracking
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Button btnSearch;
         private System.Windows.Forms.Button btnClear;
+        private System.Windows.Forms.ComboBox cmbState;
+        private System.Windows.Forms.Label label8;
     }
 }

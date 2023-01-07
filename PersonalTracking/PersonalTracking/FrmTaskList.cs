@@ -102,7 +102,7 @@ namespace PersonalTracking
 
         private void btnSearch_Click(object sender, EventArgs e)
         {
-            List<TaskDetailDTO> list = new List<TaskDetailDTO>();
+            List<TaskDetailDTO> list = dto.Tasks;
             if (txtUserNo.Text.Trim() != "")
                 list = list.Where(x => x.UserNo == Convert.ToInt32(txtUserNo.Text)).ToList();
             if (txtName.Text.Trim() != "")

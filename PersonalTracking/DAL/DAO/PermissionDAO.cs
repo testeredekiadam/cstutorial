@@ -57,7 +57,18 @@ namespace DAL.DAO
                 PermissionDetailDTO dto = new PermissionDetailDTO();
 
                 dto.UserNo = item.UserNo;
-                dto.Name = item.Name
+                dto.Name = item.name;
+                dto.Surname = item.surname;
+                dto.EmployeeID = item.employeeID;
+                dto.PermissionDayAmount = item.DayAmount;
+                dto.StartDate = item.startDate;
+                dto.EndDate = item.endDate;
+                dto.DepartmentID = item.departmentID;
+                dto.PositionID = item.positionID;
+                dto.State = item.stateID;
+                dto.StateName = item.StateName;
+                dto.Explanation = item.explanation;
+                permissions.Add(dto);
             }
 
             return permissions;
