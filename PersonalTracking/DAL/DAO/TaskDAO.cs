@@ -78,5 +78,24 @@ namespace DAL.DAO
 
             return tasklist;
         }
+
+        public static void UpdateTask(TASK update)
+        {
+            try
+            {
+                TASK ts = db.TASK.First(x => x.ID == update.ID);
+                ts.TaskTitle = update.TaskTitle;
+                ts.TaskContent = update.TaskContent;
+                ts.TaskState = update.TaskState;
+                ts.EmployeeID = update.EmployeeID;
+                ts.TaskDeliveryDate = update.TaskDeliveryDate;
+                db.SubmitChanges();
+            }
+            catch (Exception ex)
+            {
+
+                throw ex;
+            }
+        }
     }
 }
