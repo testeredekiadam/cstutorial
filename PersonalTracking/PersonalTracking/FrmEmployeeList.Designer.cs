@@ -253,6 +253,7 @@ namespace PersonalTracking
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.Size = new System.Drawing.Size(1127, 759);
             this.dataGridView1.TabIndex = 1;
+            this.dataGridView1.RowEnter += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_RowEnter);
             // 
             // FrmEmployeeList
             // 
