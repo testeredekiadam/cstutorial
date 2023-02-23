@@ -178,6 +178,9 @@ namespace PersonalTracking
             if(result == DialogResult.Yes)
             {
                 TaskBLL.DeleteTask(detail.TaskID);
+                MessageBox.Show("Task was deleted");
+                FillAllData();
+                CleanFilters();
             }
         }
     }

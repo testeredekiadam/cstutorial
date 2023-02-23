@@ -81,15 +81,17 @@ namespace DAL.DAO
 
         public static void DeleteTask(int taskID)
         {
-          /*  try
+            try
             {
-                TASK ts = db.
+                TASK ts = db.TASK.First(x => x.ID == taskID);
+                db.TASK.DeleteOnSubmit(ts);
+                db.SubmitChanges();
             }
             catch (Exception ex)
             {
 
                 throw ex;
-            }*/
+            }
         }
 
         public static void UpdateTask(TASK update)

@@ -71,6 +71,22 @@ namespace DAL.DAO
             return employeeList;
         }
 
+        public static void DeleteEmployee(int employeeID)
+        {
+            try
+            {
+                EMPLOYEE employee = db.EMPLOYEE.First(x => x.ID == employeeID);
+                db.EMPLOYEE.DeleteOnSubmit(employee);
+                db.SubmitChanges();
+
+            }
+            catch (Exception ex)
+            {
+
+                throw ex;
+            }
+        }
+
         public static void UpdateEmployee(POSITION position)
         {
             List<EMPLOYEE> list = db.EMPLOYEE.Where(x => x.PositionID == position.ID).ToList();

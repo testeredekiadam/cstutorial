@@ -54,7 +54,7 @@ namespace DAL.DAO
                 SalaryDetailsDTO dto = new SalaryDetailsDTO();
                 dto.UserNo = item.UserNo;
                 dto.Name = item.name;
-                dto.Surname = item.name;
+                dto.Surname = item.surname;
                 dto.EmployeeID = item.EmployeeID;
                 dto.SalaryAmount = item.amount;
                 dto.SalaryYear = item.year;
@@ -68,6 +68,21 @@ namespace DAL.DAO
             }
 
             return salaryList;
+        }
+
+        public static void DeleteSalary(int salaryID)
+        {
+            try
+            {
+                SALARY salary = db.SALARY.First(x => x.ID == salaryID);
+                db.SALARY.DeleteOnSubmit(salary);
+                db.SubmitChanges();
+            }
+            catch (Exception ex)
+            {
+
+                throw ex;
+            }
         }
 
         public static void UpdateSalary(SALARY salary)

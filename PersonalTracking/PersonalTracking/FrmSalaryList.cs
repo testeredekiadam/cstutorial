@@ -102,6 +102,7 @@ namespace PersonalTracking
             dataGridView1.Columns[14].Visible = false;
             dataGridView1.Columns[15].Visible = false;
             
+            
         }
 
         SalaryDetailsDTO detail = new SalaryDetailsDTO();
@@ -184,6 +185,18 @@ namespace PersonalTracking
             detail.MonthID= Convert.ToInt32(dataGridView1.Rows[e.RowIndex].Cells[10].Value);
             detail.SalaryAmount = Convert.ToInt32(dataGridView1.Rows[e.RowIndex].Cells[11].Value);
             detail.OldSalary = Convert.ToInt32(dataGridView1.Rows[e.RowIndex].Cells[13].Value);
+        }
+
+        private void btnDelete_Click(object sender, EventArgs e)
+        {
+            DialogResult result = MessageBox.Show("Are you sure to delete this salary?", "Warning", MessageBoxButtons.YesNo);
+            if (result == DialogResult.Yes)
+            {
+                SalaryBLL.DeleteSalary(detail.SalaryID);
+                MessageBox.Show("Salary was deleted");
+                FillAllData();
+                CleanFilters();
+            }
         }
     }
 }

@@ -63,7 +63,7 @@ namespace PersonalTracking
         {
             dto = EmployeeBLL.GetALL();
             dataGridView1.DataSource = dto.Employees;
-            /*
+            
             dataGridView1.Columns[0].Visible = false;
             dataGridView1.Columns[1].Visible = false;
             dataGridView1.Columns[2].HeaderText = "User No";
@@ -88,7 +88,7 @@ namespace PersonalTracking
             cmbDepartment.SelectedIndex = -1;
             cmbPosition.SelectedIndex = -1;
             combofull = true;
-            */
+            
         }
 
         private void FrmEmployeeList_Load(object sender, EventArgs e)
@@ -152,6 +152,18 @@ namespace PersonalTracking
             detail.PositionID = Convert.ToInt32(dataGridView1.Rows[e.RowIndex].Cells[9].Value);
             detail.EmployeeID = Convert.ToInt32(dataGridView1.Rows[e.RowIndex].Cells[0].Value);
             detail.Salary = Convert.ToInt32(dataGridView1.Rows[e.RowIndex].Cells[5].Value);
+        }
+
+        private void btnDelete_Click(object sender, EventArgs e)
+        {
+            DialogResult result = MessageBox.Show("Are you sure to delete this employee?", "Warning", MessageBoxButtons.YesNo);
+            if(result == DialogResult.Yes)
+            {
+                EmployeeBLL.DeleteEmployee(detail.EmployeeID);
+                MessageBox.Show("The employee was deleted");
+                FillAllData();
+                CleanFilters();
+            }
         }
     }
 }

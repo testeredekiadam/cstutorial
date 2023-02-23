@@ -36,6 +36,7 @@ namespace PersonalTracking
             if (!isUpdate)
             {
                 dataGridView1.DataSource = dto.Employees;
+                /*
                 dataGridView1.Columns[0].Visible = false;
                 dataGridView1.Columns[1].Visible = false;
                 dataGridView1.Columns[2].HeaderText = "User No";
@@ -50,7 +51,7 @@ namespace PersonalTracking
                 dataGridView1.Columns[11].Visible = false;
                 dataGridView1.Columns[12].Visible = false;
                 dataGridView1.Columns[13].Visible = false;
-
+                */
                 combofull = false;
                 cmbDepartment.DataSource = dto.Departments;
                 cmbDepartment.DisplayMember = "DepartmentName";
@@ -90,7 +91,7 @@ namespace PersonalTracking
             txtYear.Text = DateTime.Today.Year.ToString();
             txtSalary.Text = dataGridView1.Rows[e.RowIndex].Cells[5].Value.ToString();
             salary.EmployeeID = Convert.ToInt32(dataGridView1.Rows[e.RowIndex].Cells[0].Value);
-            oldsalary = Convert.ToInt32(dataGridView1.Rows[e.RowIndex].Cells[13].Value);
+            oldsalary = Convert.ToInt32(dataGridView1.Rows[e.RowIndex].Cells[5].Value);
 
         }
         
