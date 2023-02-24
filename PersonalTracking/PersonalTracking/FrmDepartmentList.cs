@@ -52,21 +52,41 @@ namespace PersonalTracking
             }
         }
 
+        
+        
+
         List<DEPARTMENT> list = new List<DEPARTMENT>();
         public DEPARTMENT detail = new DEPARTMENT();
         private void FrmDepartmentList_Load(object sender, EventArgs e)
         {
-            
-            list = DepartmentBLL.GetDepartments();
-            dataGridView1.DataSource = list;
+
+            FillGrid();
             dataGridView1.Columns[0].Visible = false;
             dataGridView1.Columns[1].HeaderText = "Department Name";
+        }
+
+        private void FillGrid()
+        {
+            list = DepartmentBLL.GetDepartments();
+            dataGridView1.DataSource = list;
         }
 
         private void dataGridView1_RowEnter(object sender, DataGridViewCellEventArgs e)
         {
             detail.ID = Convert.ToInt32(dataGridView1.Rows[e.RowIndex].Cells[0].Value);
             detail.DepartmentName = dataGridView1.Rows[e.RowIndex].Cells[1].Value.ToString();
+        }
+
+        private void btnDelete_Click(object sender, EventArgs e)
+        {
+            DialogResult result = MessageBox.Show("Are you sure to delete department?", "Warning", MessageBoxButtons.YesNo);
+            if(DialogResult.Yes == result)
+            {
+                DepartmentBLL.DeleteDepartment(detail.ID);
+                MessageBox.Show("Deparment was deleted");
+                FillGrid();
+                
+            }
         }
     }
 }

@@ -20,10 +20,7 @@ namespace PersonalTracking
             InitializeComponent();
         }
 
-        private void button1_Click(object sender, EventArgs e)
-        {
 
-        }
 
         TaskDTO dto = new TaskDTO();
         private bool combofull = false;
@@ -31,6 +28,11 @@ namespace PersonalTracking
         void FillAllData()
         {
             dto = TaskBLL.GetAll();
+            if (!UserStatic.isAdmin)
+            {
+                dto.Tasks = dto.Tasks.Where(x => x.EmployeeID == UserStatic.EmployeeID).ToList();
+            }
+
             dataGridView1.DataSource = dto.Tasks;
 
             combofull = false;
@@ -68,6 +70,17 @@ namespace PersonalTracking
             dataGridView1.Columns[12].HeaderText = "Start Date";
             dataGridView1.Columns[13].HeaderText= "Delivery Date";
             dataGridView1.Columns[14].Visible = false;
+
+            if (!UserStatic.isAdmin)
+            {
+                btnNew.Visible = false;
+                btnUpdate.Visible = false;
+                btnDelete.Visible = false;
+                btnClose.Location = new Point(422, 16);
+                btnApprove.Location = new Point(254, 16);
+                pnlForAdmin.Hide();
+                btnApprove.Text = "Delivery";
+            }
            
         }
 
@@ -179,6 +192,33 @@ namespace PersonalTracking
             {
                 TaskBLL.DeleteTask(detail.TaskID);
                 MessageBox.Show("Task was deleted");
+                FillAllData();
+                CleanFilters();
+            }
+        }
+
+        private void btnApprove_Click(object sender, EventArgs e)
+        {
+            if(UserStatic.isAdmin && detail.TaskStateID==TaskStates.OnEmployee && detail.EmployeeID != UserStatic.EmployeeID)
+            {
+                MessageBox.Show("Before approve a task employee have to deliver task");
+            }
+            else if(UserStatic.isAdmin && detail.TaskStateID == TaskStates.Approved)
+            {
+                MessageBox.Show("This task is already approved");
+            }
+            else if(!UserStatic.isAdmin && detail.TaskStateID == TaskStates.Delivered)
+            {
+                MessageBox.Show("This task is already delivered");
+            }
+            else if (!UserStatic.isAdmin && detail.TaskStateID == TaskStates.Approved)
+            {
+                MessageBox.Show("This task is already approved");
+            }
+            else
+            {
+                TaskBLL.ApproveTask(detail.TaskID, UserStatic.isAdmin);
+                MessageBox.Show("Task was updated");
                 FillAllData();
                 CleanFilters();
             }

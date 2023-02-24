@@ -79,6 +79,25 @@ namespace DAL.DAO
             return tasklist;
         }
 
+        public static void ApproveTask(int taskID, bool isAdmin)
+        {
+            try
+            {
+                TASK tsk = db.TASK.First(x => x.ID == taskID);
+                if (!isAdmin)
+                    tsk.TaskState = TaskStates.Approved;
+                else
+                    tsk.TaskState = TaskStates.Delivered;
+                tsk.TaskDeliveryDate = DateTime.Today;
+                db.SubmitChanges();
+            }
+            catch (Exception ex)
+            {
+
+                throw ex;
+            }
+        }
+
         public static void DeleteTask(int taskID)
         {
             try

@@ -61,6 +61,10 @@ namespace PersonalTracking
         private void FillAllData()
         {
             dto = SalaryBLL.GetAll();
+            if (!UserStatic.isAdmin)
+            {
+                dto.Salaries = dto.Salaries.Where(x => x.EmployeeID == UserStatic.EmployeeID).ToList();
+            }
             dataGridView1.DataSource = dto.Salaries;
 
             combofull = false;
@@ -111,6 +115,14 @@ namespace PersonalTracking
         {
             FillAllData();
             ListView();
+            if (!UserStatic.isAdmin)
+            {
+                btnUpdate.Hide();
+                btnDelete.Hide();
+                btnNew.Location = new Point(212, 20);
+                btnClose.Location = new Point(350, 20);
+                pnlAdmin.Hide();
+            }
         }
 
         private void cmbDepartment_SelectedIndexChanged(object sender, EventArgs e)

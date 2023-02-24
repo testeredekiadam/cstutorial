@@ -43,8 +43,9 @@ namespace PersonalTracking
             // 
             this.btnEmployee.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnEmployee.Location = new System.Drawing.Point(44, 36);
+            this.btnEmployee.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnEmployee.Name = "btnEmployee";
-            this.btnEmployee.Size = new System.Drawing.Size(271, 232);
+            this.btnEmployee.Size = new System.Drawing.Size(271, 231);
             this.btnEmployee.TabIndex = 0;
             this.btnEmployee.Text = "Employee";
             this.btnEmployee.UseVisualStyleBackColor = true;
@@ -54,8 +55,9 @@ namespace PersonalTracking
             // 
             this.btnTasks.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnTasks.Location = new System.Drawing.Point(371, 36);
+            this.btnTasks.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnTasks.Name = "btnTasks";
-            this.btnTasks.Size = new System.Drawing.Size(270, 232);
+            this.btnTasks.Size = new System.Drawing.Size(269, 231);
             this.btnTasks.TabIndex = 1;
             this.btnTasks.Text = "Tasks";
             this.btnTasks.UseVisualStyleBackColor = true;
@@ -65,8 +67,9 @@ namespace PersonalTracking
             // 
             this.btnSalary.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSalary.Location = new System.Drawing.Point(689, 36);
+            this.btnSalary.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnSalary.Name = "btnSalary";
-            this.btnSalary.Size = new System.Drawing.Size(246, 232);
+            this.btnSalary.Size = new System.Drawing.Size(245, 231);
             this.btnSalary.TabIndex = 2;
             this.btnSalary.Text = "Salary";
             this.btnSalary.UseVisualStyleBackColor = true;
@@ -76,8 +79,9 @@ namespace PersonalTracking
             // 
             this.btnPosition.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnPosition.Location = new System.Drawing.Point(689, 332);
+            this.btnPosition.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnPosition.Name = "btnPosition";
-            this.btnPosition.Size = new System.Drawing.Size(246, 232);
+            this.btnPosition.Size = new System.Drawing.Size(245, 231);
             this.btnPosition.TabIndex = 5;
             this.btnPosition.Text = "Position";
             this.btnPosition.UseVisualStyleBackColor = true;
@@ -87,8 +91,9 @@ namespace PersonalTracking
             // 
             this.btnDepartment.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnDepartment.Location = new System.Drawing.Point(371, 332);
+            this.btnDepartment.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnDepartment.Name = "btnDepartment";
-            this.btnDepartment.Size = new System.Drawing.Size(270, 232);
+            this.btnDepartment.Size = new System.Drawing.Size(269, 231);
             this.btnDepartment.TabIndex = 4;
             this.btnDepartment.Text = "Department";
             this.btnDepartment.UseVisualStyleBackColor = true;
@@ -98,8 +103,9 @@ namespace PersonalTracking
             // 
             this.btnPermission.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnPermission.Location = new System.Drawing.Point(44, 332);
+            this.btnPermission.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnPermission.Name = "btnPermission";
-            this.btnPermission.Size = new System.Drawing.Size(271, 232);
+            this.btnPermission.Size = new System.Drawing.Size(271, 231);
             this.btnPermission.TabIndex = 3;
             this.btnPermission.Text = "Permission";
             this.btnPermission.UseVisualStyleBackColor = true;
@@ -109,8 +115,9 @@ namespace PersonalTracking
             // 
             this.btnExit.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnExit.Location = new System.Drawing.Point(496, 624);
+            this.btnExit.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnExit.Name = "btnExit";
-            this.btnExit.Size = new System.Drawing.Size(246, 232);
+            this.btnExit.Size = new System.Drawing.Size(245, 231);
             this.btnExit.TabIndex = 7;
             this.btnExit.Text = "Exit";
             this.btnExit.UseVisualStyleBackColor = true;
@@ -119,9 +126,10 @@ namespace PersonalTracking
             // btnLogOut
             // 
             this.btnLogOut.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnLogOut.Location = new System.Drawing.Point(178, 624);
+            this.btnLogOut.Location = new System.Drawing.Point(179, 624);
+            this.btnLogOut.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnLogOut.Name = "btnLogOut";
-            this.btnLogOut.Size = new System.Drawing.Size(246, 232);
+            this.btnLogOut.Size = new System.Drawing.Size(245, 231);
             this.btnLogOut.TabIndex = 6;
             this.btnLogOut.Text = "Log Out";
             this.btnLogOut.UseVisualStyleBackColor = true;
@@ -140,10 +148,12 @@ namespace PersonalTracking
             this.Controls.Add(this.btnSalary);
             this.Controls.Add(this.btnTasks);
             this.Controls.Add(this.btnEmployee);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "FrmMain";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Main";
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.FrmMain_FormClosed);
+            this.Load += new System.EventHandler(this.FrmMain_Load);
             this.ResumeLayout(false);
 
         }

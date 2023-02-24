@@ -67,6 +67,15 @@ namespace PersonalTracking
                 imagepath = Application.StartupPath + "\\images\\" + detail.ImagePath;
                 txtImagePath.Text = imagepath;
                 pictureBox1.ImageLocation = imagepath;
+
+                if (!UserStatic.isAdmin)
+                {
+                    chAdmin.Enabled = false;
+                    txtUserNo.Enabled = false;
+                    txtSalary.Enabled = false;
+                    cmbDepartment.Enabled = false;
+                    cmbPosition.Enabled = false;
+                }
             }
         }
 
@@ -173,7 +182,7 @@ namespace PersonalTracking
                         employee.Name = txtName.Text;
                         employee.Surname = txtSurname.Text;
                         employee.isAdmin = chAdmin.Checked;
-                        employee.Password = txtAddress.Text;
+                        employee.Password = txtPassword.Text;
                         employee.Adress = txtAddress.Text;
                         employee.BirthDay = dateTimePicker1.Value;
                         employee.DepartmentID = Convert.ToInt32(cmbDepartment.SelectedValue);
