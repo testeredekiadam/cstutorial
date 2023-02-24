@@ -27,3 +27,4 @@ C:\Users\erkol\OneDrive\Desktop\cstutorial\PersonalTracking\PersonalTracking\bin
 C:\Users\erkol\OneDrive\Desktop\cstutorial\PersonalTracking\PersonalTracking\bin\Debug\DAL.dll.config
 C:\Users\erkol\OneDrive\Desktop\cstutorial\PersonalTracking\PersonalTracking\obj\Debug\PersonalTracking.csproj.AssemblyReference.cache
 C:\Users\erkol\OneDrive\Desktop\cstutorial\PersonalTracking\PersonalTracking\obj\Debug\PersonalTracking.csproj.CopyComplete
+C:\Users\erkol\OneDrive\Desktop\cstutorial\PersonalTracking\PersonalTracking\obj\Debug\PersonalTracking.csproj.ResolveComReference.cache
